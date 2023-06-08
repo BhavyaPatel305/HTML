@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="ludo1.html" id="register" method="get" autocomplete="on" enctype="multipart/form-data">
+
+        <fieldset style="background-color: aqua;">
+            <legend align="center">Personal Info.</legend>
+            <br><br>
+        <div>
+            <label for="fname">Name: </label>
+            <input type="text" name="fname" placeholder="Enter your First Name" id="fname" required> 
+        </div><br><br>
+
+        <div>
+            <label for="lname">Surname: </label>
+            <input type="text" name="surname" placeholder="Enter your Surname" id="lname"><br><br>
+        </div><br><br>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" placeholder="Enter your Email" id="email"><br><br>
+        </div><br><br>
+    </fieldset>
+
+    <br>
+    <fieldset>
+        <br><br>
+        <legend>Contact Info.</legend>
+        <div>
+            Hobby: 
+            <input type="checkbox" id="cri" value="cricket" name="hobby">
+            <label for="cri">Cricket</label>
+
+            <input type="checkbox" id="read" value="reading" name="hobby">
+            <label for="read">Reading</label>
+
+            <input type="checkbox" id="sing" value="singing" name="hobby">
+            <label for="sing">Singing</label>
+        </div><br><br>
+
+        <div>
+            Gender: 
+            <input type="radio" id="male" value="M" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="F" name="gender">
+            <label for="female">Female</label>
+        </div><br><br>
+
+
+        <div>
+            <label for="con">Country</label>
+            <select name="country" id="con">
+                <optgroup label="Countries">
+                    <option value="Ind">India</option>
+                    <option value="USA">United states of America</option>
+                    <option value="UK" selected>United Kingdom</option>
+                    <option value="SHR" disabled>Shrilanka</option>
+                    <option value="AUS">Australlia</option>
+                </optgroup>
+                <optgroup label="States">
+                    <option value="Ind">India</option>
+                    <option value="USA">United states of America</option>
+                    <option value="UK" selected>United Kingdom</option>
+                    <option value="SHR" disabled>Shrilanka</option>
+                    <option value="AUS">Australlia</option>
+                </optgroup>
+            </select>
+        </div><br><br>
+    </fieldset><br><br>
+
+        <div>
+            <input type="color">
+            <input type="date">
+            <input type="datetime-local">
+            <input type="datetime">
+            <input type="hidden" value="time.today()" name="Mystrery">
+            <input type="month">
+
+            <br><br>
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="age" min="18" max="60" step="2">
+
+            <br><br>
+            <input type="range" min="20" max="100">
+            <meter min="10" max="100" value="80">
+
+            </div><br><br>
+            
+            <input type="search">
+            <input type="tel">
+            <input type="url">
+            <input type="week">
+        <div>
+            <label for="pass">Password: </label>
+            <input type="password" pattern="[A-Za-z0-9]{3}" name="pass1" placeholder="Enter your Password" id="pass"><br><br>
+        </div><br><br>
+        <div>
+            <label for="file">Chhose File: </label>
+            <input type="file" name="docs" id="file"><br><br>
+        </div><br><br>
+
+        <div>
+            <label for="comment">Enter Feedback: </label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div><br><br>
+
+        <input type="search">
+
+        <div>
+            <input type="submit" value="Register">
+            <br><br>
+            <input type="reset" value="Reset">
+            <br><br>
+            <input type="button" value="Send Data">
+        </div>
+        <br>
+
+
+      
+
+
+
+    </form>
+
+
+    <!-- <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas soluta cum cumque hic quae officiis cupiditate odit maiores, eaque explicabo dignissimos nisi ducimus eveniet similique voluptatibus numquam? Asperiores sequi similique officia ab quibusdam voluptates a nemo, nam quia minima. <div style="background-color: bisque; color: red; font-family: facile sans;">Culpa quam tempore,</div> ab labore illum cupiditate modi sint mollitia magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ex, error iusto dolores nihil est amet itaque cupiditate rem debitis nobis, <span style="font-size: 24px;"> mollitia provident, veritatis</span> eos quasi rerum earum nam sequi aut fugiat unde excepturi? Harum reprehenderit aliquid sequi nobis corporis dolores vel quam odit minima esse perferendis animi, totam expedita?
+    </p> -->
+</body>
+</html>
