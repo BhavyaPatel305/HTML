@@ -1,0 +1,59 @@
+<!DOCTYPE html>   <!--HTML5-->
+<html lang="en">  <!--Root Element-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bhavya Patel">
+    <meta name="keywords" content="Registration, Form">
+    <title>Registration Form</title>  <!--Website Title-->
+</head>
+<body>
+    <h1>
+        Registration Form
+    </h1>
+
+    <form action="/area_map.html" method="post" enctype="multipart/form-data" autocomplete="on">
+
+        <div>
+            <label for="fname">Descent Name: </label>
+
+            <input type="text" placeholder="Enter your Full Name" name="fname" id="fname" required>
+        </div><br><br>
+
+        <div>
+            <label for="lname">Surname: </label>
+
+            <input type="text" placeholder="Enter Surname" name="surname" value="Patel" id="lname">
+        </div><br><br>
+        <div>
+            <label for="email">Email: </label>
+
+            <input type="email" placeholder="abc@gmail.com" name="email" id="email">
+        </div>
+        <br><br>
+        <div>
+            <label for="docs">Choose File: </label>
+
+            <input type="file"  name="docs" id="docs">
+        </div>
+        <br><br>
+        <div>
+            <label for="pass">Password: </label>
+
+            <input type="password" placeholder="Enter Strong Password" name="password" id="pass" pattern="[A-Za-z]{4}">
+        </div>
+        <br><br>
+        <div>
+            <input type="submit" value="Register">
+            &nbsp;
+            <input type="button" value="Save Form Data">
+            &nbsp;
+            <input type="reset" value="Clear Data">
+        </div>
+    </form>
+</body>
+</html>
+
+
+<!-- 
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati itaque dolorem similique odio consequatur, <span style="background-color: blueviolet;"> molestias id sint minima</span> accusantium cum tempora incidunt quis expedita qui, autem eligendi inventore omnis <div style="font-size: 20px; color: red;">officiis voluptatibus</div> ipsam rem cupiditate numquam. Beatae cupiditate minima qui. Nesciunt!</p> -->
