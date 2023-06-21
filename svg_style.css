@@ -1,0 +1,19 @@
+/* Cascading Style Sheets */
+
+
+/* External CSS */
+
+
+p{
+    font-weight: 800;
+    background-color: burlywood;
+}
+
+h1{
+    color: blueviolet;
+}
+
+h2{
+    color: blueviolet;
+    background-color: burlywood;
+}
